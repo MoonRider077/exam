@@ -1,0 +1,764 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --main-color: #D23166;
+    --secondary-color: #F8EDF0;
+}
+
+.first_section {
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+    max-width: 1600px;
+    height: 862px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #150101;
+}
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1125px;
+    height: 79px;
+}
+
+.header_logo {
+    padding-top: 10px;
+}
+
+.header_title {
+    padding-top: 41px;
+}
+
+.header_title-text {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.first_title {
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.header_button {
+    padding-top: 25px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 49px;
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    border-radius: 5px;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    width: 1100px;
+    padding-top: 196px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #0F0101;
+}
+
+.title_2 {
+    padding-top: 6px;
+    font-family: Fredoka;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 69px;
+    color: #0F0101;
+}
+
+.span_title {
+    color: var(--main-color)
+}
+
+.title_3 {
+    padding-top: 35px;
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #0F0101;
+}
+
+.container_button {
+    padding-top: 50px;
+}
+
+.container_img {
+    position: relative;
+}
+
+.container_img-icecream {
+    z-index: 2;
+    position: absolute;
+    bottom: -70px;
+    left: 548px;
+}
+
+.container_img-cream {
+    z-index: 3;
+    position: absolute;
+    bottom: -210px;
+    left: 395px;
+}
+
+.circle {
+    z-index: 1;
+    position: absolute;
+    width: 365px;
+    height: 353px;
+    bottom: -105px;
+    left: 660px;
+    opacity: 10%;
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+
+.circle_shadow {
+    position: absolute;
+    left: 700px;
+    top: 90px;
+}
+
+.second_section {
+    height: 400px;
+    margin: 0 auto;
+}
+
+.card_row {
+    padding-left: 125px;
+    padding-top: 100px;
+    display: flex;
+    gap: 39px;
+}
+
+.card {
+    width: 250px;
+    height: 200px;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: 7px;
+}
+
+.card_img {
+    padding-top: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_img2 {
+    padding-top: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #000000;
+}
+
+.card_descr {
+    text-align: center;
+    padding-top: 9px;
+    font-family: Hind Madurai;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000000;
+}
+
+.third_section {
+    position: relative;
+    max-width: 1600px;
+    height: 544px;
+    background-color: var(--secondary-color);
+}
+
+.third_section_title {
+    padding-left: 126px;
+    padding-top: 141px;
+}
+
+.third_section-title {
+    font-family: Hind Madurai;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 49px;
+    color: #150101;
+}
+
+.third_section-descr {
+    padding-top: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #150101;
+}
+
+.third_section-button {
+    padding-top: 35px;
+}
+
+.third_section_img {
+    position: absolute;
+    bottom: -45px;
+    left: 660px;
+}
+
+.third_section-ellipse {
+    position: absolute;
+    right: 193px;
+}
+
+.product_container {
+    width: 1110px;
+    height: 1506px;
+    margin: 0 auto;
+}
+
+.product_container_title {
+    padding-top: 137px;
+    font-family: Hind Madurai;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 61px;
+    text-align: center;
+}
+
+.product_container_menu {
+    padding-top: 64px;
+}
+
+.product_container-items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.product_container_li {
+    color: rgb(87, 81, 81);
+    cursor: pointer;
+}
+
+.product_container_li:hover {
+    color: #000000;
+}
+
+.product_container_li:hover:before {
+    transform: scaleX(1);
+    transition: 0.25s;
+}
+
+.product_container_li:before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: var(--main-color);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transform: scale(0);
+}
+
+.first_ice_cream {
+    display: flex;
+}
+
+.first_icecream-img {
+    padding-top: 50px;
+}
+
+.first_ice_cream_title {
+    padding-top: 110px;
+    padding-left: 85px;
+}
+
+.first_ice_cream-title {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #000000;
+}
+
+.first_ice_cream-descr {
+    padding-top: 11px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+.first_ice_cream_price {
+    padding-top: 28px;
+    display: flex;
+    gap: 5px;
+}
+
+.first_ice_cream-price {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000000;
+}
+
+.first_ice_cream-price2 {
+    padding-top: 5px;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000000;
+}
+
+.first_ice_cream-button {
+    padding-top: 10px;
+}
+
+.first_ice_cream_title2 {
+    padding-top: 121px;
+    padding-right: 84px;
+}
+
+.first_ice_cream-title2 {
+    text-align: right;
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #000000;
+}
+
+.first_ice_cream-descr2 {
+    text-align: right;
+    padding-top: 11px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+.first_ice_cream_price2 {
+    display: flex;
+    gap: 5px;
+    padding-top: 28px;
+    justify-content: end;
+}
+
+.first_ice_cream-price_2 {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.first_ice_cream-price2_2 {
+    padding-top: 5px;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.first_ice_cream-button2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.first_ice_cream_title3 {
+    padding-left: 87px;
+    padding-top: 126px;
+}
+
+.feedback_container {
+    width: 1111px;
+    height: 870px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.feedback_title {
+    padding-top: 370px;
+    display: flex;
+}
+
+.feedback_title_descr {
+    padding-left: 21px;
+}
+
+.feedback_title-descr {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000000;
+}
+
+.feedback_title_amirecan {
+    padding-top: 5px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #000000;
+}
+
+.feedback_descr {
+    padding-top: 46px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.feedback-descr {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+.first_icon {
+    position: absolute;
+    left: 0;
+}
+
+.second_icon {
+    position: absolute;
+    left: 330px;
+    bottom: 0;
+}
+
+.feedbackers {
+    display: flex;
+    gap: 26px;
+    padding-top: 56px;
+}
+
+.feedbackers img {
+    cursor: pointer;
+}
+
+.feedback_picture {
+    position: absolute;
+    left: 566px;
+    bottom: 130px;
+} 
+
+.forth_section {
+    max-width: 1600px;
+    height: 638px;
+    background-color: var(--secondary-color);
+    margin: 0 auto;
+    position: relative;
+}
+
+.ice_cream_card {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+
+.forth_section_title {
+    padding-left: 559px;
+    padding-top: 90px;
+}
+
+.forth_section-title {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #000000;
+}
+
+.forth_section-descr {
+    padding-top: 20px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #0F0101;
+}
+
+.forth_section_icons {
+    display: flex;
+    padding-top: 29px;
+    gap: 10px;
+}
+
+.forth_section_icons_descr {
+    padding-top: 3px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+}
+
+.apps {
+    position: absolute;
+    display: flex;
+    gap: 7px;
+    right: 423px;
+    bottom: 103px;
+    cursor: pointer;
+}
+
+.q111 {
+    position: absolute;
+    top: 260px;
+    left: 568px;
+}
+
+.q222 {
+    position: absolute;
+    top: 325px;
+    left: 566px;
+}
+
+.q333 {
+    position: absolute;
+    top: 387px;
+    left: 567px;
+}
+
+.fifth_section {
+    max-width: 1600px;
+    height: 565px;
+    position: relative;
+}
+
+.fifth_section_title {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: center;
+}
+
+.fifth_section_input {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 36px;
+}
+
+.fifth_section_input input {
+    width: 303px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+}
+
+.fifth_section_input input[placeholder] {
+    padding-left: 25px;
+}
+
+.third_input {
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+}
+
+.third_input input {
+    width: 637px;
+    height: 74px;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+}
+
+.third_input input[placeholder] {
+    padding-left: 25px;
+}
+
+.input_button {
+    position: absolute;  
+    right: 356px;
+    bottom: 90px;
+    cursor: pointer;
+}
+
+.input_button:hover {
+    transform: scale(1.1);
+}
+
+.input_btn {
+    width: 134px;
+    height: 74px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    height: 381px;
+    max-width: 1600px;
+    background-color: #0A0808;
+    padding: 0 8%;
+}
+
+.footer_first_section {
+    padding-top: 70px;
+}
+
+.footer_first_section_descr {
+    padding-top: 8px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.follow_us {
+    padding-top: 25px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.social_medias {
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.footer_second_section {
+    padding-top: 143px;
+    padding-left: 42px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.q23, .q24, .q25, .q26, .q27 {
+    padding-top: 10px;
+}
+
+.footer_third_section {
+    padding-top: 150px;
+    padding-left: 132px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.qq2, .qq3, .qq4, .qq5 {
+    padding-top: 10px;
+}
+
+.footer_last_section {
+    padding-top: 136px;
+    padding-left: 200px;
+}
+
+.newsletter {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.footer_input {
+    padding-top: 13px;
+}
+
+.footer_input input{
+    width: 388px;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    opacity: 0.5px;
+    background-color: #000000;
+}
+
+.footer_input input[placeholder] {
+    padding-left: 32px;
+}
+
+.footer_img {
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+.footer_input_btn {
+    right: 111px;
+    bottom: 160px;
+    position: absolute;
+    width: 125px;
+    height: 55px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
